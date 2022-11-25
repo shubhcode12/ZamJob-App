@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.zamjob.app.ui.home.HomeFragment"
+        android:name="com.zamjob.app.ui.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.zamjob.app.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_profile"
+        android:name="com.zamjob.app.ui.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_profile" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.zamjob.app.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_wallet"
+        android:name="com.zamjob.app.ui.WalletFragment"
+        android:label="@string/menu_wallet"
+        tools:layout="@layout/fragment_wallet" />
 </navigation>
