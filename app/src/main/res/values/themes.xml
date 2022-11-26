@@ -21,4 +21,8 @@
         <item name="boxStrokeWidth">0dp</item>
         <item name="boxStrokeColor">@color/bg_card</item>
     </style>
+
+    <style name="MyTabLayoutTextAppearance" parent="TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse">
+        <item name="android:textSize">12sp</item>
+    </style>
 </resources>
