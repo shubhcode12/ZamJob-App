@@ -48,7 +48,7 @@
                     android:id="@+id/tvtransTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="end"
+                    android:layout_gravity="start"
                     android:fontFamily="@font/sf_pr_semibold"
                     android:text="AMOUMT ADDED BY ADMIN"
                     android:textColor="@color/colorPrimary"
