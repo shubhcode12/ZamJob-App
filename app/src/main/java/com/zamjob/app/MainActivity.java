@@ -1,5 +1,7 @@
 package com.zamjob.app;
 
+import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.widget.Toast;
@@ -56,10 +58,20 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    @SuppressLint("NonConstantResourceId")
     public void setupNavDrawer() {
         binding.navView.setNavigationItemSelectedListener(menuItem -> {
             switch (menuItem.getItemId()) {
                 case R.id.side_home:
+                    startActivity(new Intent(MainActivity.this, MainActivity.class));
+                    break;
+                case R.id.side_withdraw:
+                    startActivity(new Intent(MainActivity.this, WithdrawActivity.class));
+                    break;
+                case R.id.side_refer:
+                    Toast.makeText(MainActivity.this, "", Toast.LENGTH_SHORT).show();
+                    break;
+                case R.id.side_logout:
                     Toast.makeText(MainActivity.this, "", Toast.LENGTH_SHORT).show();
                     break;
             }
