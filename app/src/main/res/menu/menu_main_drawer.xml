@@ -13,9 +13,9 @@
             android:icon="@drawable/ic_profile"
             android:title="Profile" />
         <item
-            android:id="@+id/side_wallet"
+            android:id="@+id/side_withdraw"
             android:icon="@drawable/ic_wallet"
-            android:title="Wallet" />
+            android:title="Withdraw" />
 
         <item
             android:id="@+id/side_refer"
