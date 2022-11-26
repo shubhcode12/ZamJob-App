@@ -23,7 +23,7 @@ public class WalletFragment extends Fragment {
             public void onTabSelected(TabLayout.Tab tab) {
 
                 if(tab.getPosition() == 0){
-                    Toast.makeText(getActivity(), "Transactions", Toast.LENGTH_SHORT).show();
+                    //Toast.makeText(getActivity(), "Transactions", Toast.LENGTH_SHORT).show();
                     binding.LinTrans.setVisibility(View.VISIBLE);
                     binding.LinReedem.setVisibility(View.GONE);
 
@@ -31,7 +31,7 @@ public class WalletFragment extends Fragment {
 //                    binding.rvTransactions.setVisibility(View.VISIBLE);
 //                    binding.rvReedemed.setVisibility(View.GONE);
                 }else if(tab.getPosition() == 1){
-                    Toast.makeText(getActivity(), "Reeedemed", Toast.LENGTH_SHORT).show();
+                   // Toast.makeText(getActivity(), "Reeedemed", Toast.LENGTH_SHORT).show();
                     binding.LinReedem.setVisibility(View.VISIBLE);
                     binding.LinTrans.setVisibility(View.GONE);
 
