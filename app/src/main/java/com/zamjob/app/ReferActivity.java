@@ -14,7 +14,9 @@ public class ReferActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivityReferBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-
+        binding.toolbar.setNavigationOnClickListener(view -> {
+            onBackPressed();
+        });
 
     }
 }
