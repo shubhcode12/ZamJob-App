@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(new Intent(MainActivity.this, WithdrawActivity.class));
                     break;
                 case R.id.side_refer:
-                    Toast.makeText(MainActivity.this, "", Toast.LENGTH_SHORT).show();
+                    startActivity(new Intent(MainActivity.this, ReferActivity.class));
                     break;
                 case R.id.side_logout:
                     Toast.makeText(MainActivity.this, "", Toast.LENGTH_SHORT).show();
