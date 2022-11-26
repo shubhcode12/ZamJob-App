@@ -1,9 +1,9 @@
 package com.zamjob.app;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.database.DatabaseUtils;
+import android.content.Intent;
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.zamjob.app.databinding.ActivityLoginBinding;
 
@@ -15,7 +15,8 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivityLoginBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-
+        binding.btnLogin.setOnClickListener(view -> startActivity(new Intent(this, MainActivity.class)));
+        binding.tvBtnSignup.setOnClickListener(view -> startActivity(new Intent(this, SignUpActivity.class)));
 
     }
 }
