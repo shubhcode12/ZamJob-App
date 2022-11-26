@@ -6,10 +6,141 @@
     android:layout_height="match_parent"
     tools:context=".ui.WalletFragment">
 
-    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:src="@drawable/bg_red" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/bg_blue" />
+
+    <RelativeLayout
+        android:id="@+id/balSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sf_pro_regular"
+                android:text="Total Balance"
+                android:textColor="@color/subtitle_color"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvBalWallet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sf_pro_bold"
+                android:text="₹ 99551"
+                android:textColor="@color/colorPrimary"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tab"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/tab_bg"
+            app:tabGravity="fill"
+            app:tabIndicatorColor="@null"
+            app:tabMinWidth="110dp"
+            app:tabMode="scrollable"
+            app:tabRippleColor="@null"
+            app:tabSelectedTextColor="#ffffff"
+            app:tabTextAppearance="@style/MyTabLayoutTextAppearance"
+            app:tabTextColor="@color/subtitle_color">
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tabTransaction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Transactions" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tabReedemed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reedemed" />
+
+        </com.google.android.material.tabs.TabLayout>
+
+    </RelativeLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/balSection">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/item_transactions" />
+
+            <include layout="@layout/item_transactions" />
+
+            <include layout="@layout/item_transactions" />
+
+            <include layout="@layout/item_transactions" />
+
+            <include layout="@layout/item_transactions" />
+
+            <include layout="@layout/item_transactions" />
+
+            <include layout="@layout/item_transactions" />
+
+            <include layout="@layout/item_transactions" />
+
+            <include layout="@layout/item_transactions" />
+
+            <include layout="@layout/item_transactions" />
+
+            <include layout="@layout/item_transactions" />
+
+            <include layout="@layout/item_transactions" />
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvTransactions"
         android:layout_width="match_parent"
-        tools:listitem="@layout/item_transactions"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"
+        android:layout_below="@+id/balSection"
+        android:paddingTop="10dp"
+        android:visibility="gone"
+        tools:listitem="@layout/item_transactions" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvReedemed"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/balSection"
+        android:paddingTop="10dp"
+        android:visibility="gone"
+        tools:listitem="" />
 </RelativeLayout>
