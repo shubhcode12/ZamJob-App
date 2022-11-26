@@ -16,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             app:title="Withdraw"
-            app:navigationIcon="@drawable/ic_arrow_right"
+            app:navigationIcon="@drawable/ic_arrow_left"
             android:background="?attr/colorPrimary"
             app:popupTheme="@style/Theme.Zamjob.PopupOverlay" />
 
