@@ -16,4 +16,9 @@
     <style name="Theme.Zamjob.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.Zamjob.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Widget.MyApp.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeColor">@color/bg_card</item>
+    </style>
 </resources>
