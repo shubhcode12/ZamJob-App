@@ -30,7 +30,7 @@ public class SplashActivity extends AppCompatActivity {
 
 
         binding.btnSkip.setOnClickListener(view -> {
-            startActivity(new Intent(this, MainActivity.class));
+            startActivity(new Intent(this, LoginActivity.class));
             finish();
         });
 
