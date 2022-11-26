@@ -14,6 +14,7 @@
         <entry key="..\:/Darwinbark Technology/Zamjob/app/src/main/res/drawable/ic_menu.xml" value="0.179" />
         <entry key="..\:/Darwinbark Technology/Zamjob/app/src/main/res/drawable/otp_border_bg.xml" value="0.179" />
         <entry key="..\:/Darwinbark Technology/Zamjob/app/src/main/res/drawable/side_nav_bar.xml" value="0.179" />
+        <entry key="..\:/Darwinbark Technology/Zamjob/app/src/main/res/drawable/tab_bg.xml" value="0.1745" />
         <entry key="..\:/Darwinbark Technology/Zamjob/app/src/main/res/drawable/textinput_round.xml" value="0.179" />
         <entry key="..\:/Darwinbark Technology/Zamjob/app/src/main/res/layout/activity_login.xml" value="0.2877297990594271" />
         <entry key="..\:/Darwinbark Technology/Zamjob/app/src/main/res/layout/activity_main.xml" value="0.35052083333333334" />
@@ -27,6 +28,8 @@
         <entry key="..\:/Darwinbark Technology/Zamjob/app/src/main/res/layout/fragment_refer.xml" value="0.2877297990594271" />
         <entry key="..\:/Darwinbark Technology/Zamjob/app/src/main/res/layout/fragment_wallet.xml" value="0.2877297990594271" />
         <entry key="..\:/Darwinbark Technology/Zamjob/app/src/main/res/layout/graph_layout.xml" value="0.2877297990594271" />
+        <entry key="..\:/Darwinbark Technology/Zamjob/app/src/main/res/layout/item_reedemed.xml" value="0.31157407407407406" />
+        <entry key="..\:/Darwinbark Technology/Zamjob/app/src/main/res/layout/item_transactions.xml" value="0.25" />
         <entry key="..\:/Darwinbark Technology/Zamjob/app/src/main/res/layout/nav_header_main.xml" value="0.35052083333333334" />
         <entry key="..\:/Darwinbark Technology/Zamjob/app/src/main/res/menu/activity_main_drawer.xml" value="0.35052083333333334" />
         <entry key="..\:/Darwinbark Technology/Zamjob/app/src/main/res/menu/main.xml" value="0.2877297990594271" />

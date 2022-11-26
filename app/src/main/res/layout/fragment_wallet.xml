@@ -72,13 +72,11 @@
             app:tabTextColor="@color/subtitle_color">
 
             <com.google.android.material.tabs.TabItem
-                android:id="@+id/tabTransaction"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Transactions" />
 
             <com.google.android.material.tabs.TabItem
-                android:id="@+id/tabReedemed"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Reedemed" />
@@ -87,50 +85,12 @@
 
     </RelativeLayout>
 
-    <androidx.core.widget.NestedScrollView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/balSection">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-
-            <include layout="@layout/item_transactions" />
-
-            <include layout="@layout/item_transactions" />
-
-            <include layout="@layout/item_transactions" />
-
-            <include layout="@layout/item_transactions" />
-
-            <include layout="@layout/item_transactions" />
-
-            <include layout="@layout/item_transactions" />
-
-            <include layout="@layout/item_transactions" />
-
-            <include layout="@layout/item_transactions" />
-
-            <include layout="@layout/item_transactions" />
-
-            <include layout="@layout/item_transactions" />
-
-            <include layout="@layout/item_transactions" />
-
-            <include layout="@layout/item_transactions" />
-
-
-        </LinearLayout>
-
-    </androidx.core.widget.NestedScrollView>
-
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvTransactions"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/balSection"
+        android:background="#FFC3C3"
         android:paddingTop="10dp"
         android:visibility="gone"
         tools:listitem="@layout/item_transactions" />
@@ -140,7 +100,79 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/balSection"
+        android:background="#ACD1EF"
         android:paddingTop="10dp"
         android:visibility="gone"
         tools:listitem="" />
+
+
+    <LinearLayout
+        android:id="@+id/LinTrans"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@+id/balSection"
+        android:visibility="gone">
+
+        <include layout="@layout/item_transactions" />
+
+        <include layout="@layout/item_transactions" />
+
+        <include layout="@layout/item_transactions" />
+
+        <include layout="@layout/item_transactions" />
+
+        <include layout="@layout/item_transactions" />
+
+        <include layout="@layout/item_transactions" />
+
+        <include layout="@layout/item_transactions" />
+
+        <include layout="@layout/item_transactions" />
+
+        <include layout="@layout/item_transactions" />
+
+        <include layout="@layout/item_transactions" />
+
+        <include layout="@layout/item_transactions" />
+
+        <include layout="@layout/item_transactions" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinReedem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/balSection"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <include layout="@layout/item_reedemed" />
+
+        <include layout="@layout/item_reedemed" />
+
+        <include layout="@layout/item_reedemed" />
+
+        <include layout="@layout/item_reedemed" />
+
+        <include layout="@layout/item_reedemed" />
+
+        <include layout="@layout/item_reedemed" />
+
+        <include layout="@layout/item_reedemed" />
+
+        <include layout="@layout/item_reedemed" />
+
+        <include layout="@layout/item_reedemed" />
+
+        <include layout="@layout/item_reedemed" />
+
+        <include layout="@layout/item_reedemed" />
+
+        <include layout="@layout/item_reedemed" />
+
+    </LinearLayout>
+
+
 </RelativeLayout>
