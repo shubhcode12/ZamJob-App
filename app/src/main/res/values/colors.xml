@@ -13,5 +13,6 @@
     <color name="price_color">#1C8C00</color>
     <color name="subtitle_color">#464646</color>
     <color name="title_white">#FEFDFE</color>
+    <color name="card_light_color">#F5F7FB</color>
 
 </resources>
