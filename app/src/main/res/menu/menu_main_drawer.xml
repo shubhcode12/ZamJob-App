@@ -23,6 +23,11 @@
             android:title="Refer &amp; Earn" />
 
         <item
+            android:id="@+id/side_privacy"
+            android:icon="@drawable/ic_menu"
+            android:title="Privacy Policy" />
+
+        <item
             android:id="@+id/side_logout"
             android:icon="@drawable/ic_menu"
             android:title="Logout" />
