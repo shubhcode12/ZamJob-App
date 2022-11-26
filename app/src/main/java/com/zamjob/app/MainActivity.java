@@ -8,6 +8,7 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import android.view.Menu;
+import android.view.MenuItem;
 
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
@@ -43,14 +44,10 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
         NavigationUI.setupWithNavController(bottomNavigationView, navController);
-//        navigationView.setNavigationItemSelectedListener(menuItem -> {
-//            switch (menuItem.getItemId()){
-//                case R.id.nav_refer:
-//                    Toast.makeText(MainActivity.this, "refer and earn", Toast.LENGTH_SHORT).show();
-//                    break;
-//            }
-//            return false;
-//        });
+
+        binding.appBarMain.bottomNavView.setOnNavigationItemReselectedListener(menuItem -> {
+
+        });
 
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, binding.appBarMain.toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
