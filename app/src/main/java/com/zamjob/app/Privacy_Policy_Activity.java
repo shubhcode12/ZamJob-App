@@ -14,5 +14,8 @@ public class Privacy_Policy_Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivityPrivacyPolicyBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+        binding.toolbar.setNavigationOnClickListener(view -> {
+            onBackPressed();
+        });
     }
 }
