@@ -15,5 +15,6 @@
     <color name="title_white">#FEFDFE</color>
     <color name="card_light_color">#F5F7FB</color>
     <color name="status_red">#DD0F00</color>
+    <color name="edittext_bg_color">#f9fafe</color>
 
 </resources>
