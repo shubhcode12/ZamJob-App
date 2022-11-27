@@ -8,14 +8,7 @@
             android:id="@+id/side_home"
             android:icon="@drawable/ic_home"
             android:title="Home" />
-        <item
-            android:id="@+id/side_profile"
-            android:icon="@drawable/ic_profile"
-            android:title="Profile" />
-        <item
-            android:id="@+id/side_withdraw"
-            android:icon="@drawable/ic_wallet"
-            android:title="Withdraw" />
+
 
         <item
             android:id="@+id/side_refer"
