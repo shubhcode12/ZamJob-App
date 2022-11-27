@@ -11,7 +11,7 @@
 
         <item
             android:id="@+id/side_refer"
-            android:icon="@drawable/ic_menu"
+            android:icon="@drawable/ic_refer"
             android:title="Refer &amp; Earn" />
 
         <item
