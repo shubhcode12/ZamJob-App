@@ -3,6 +3,7 @@ package com.zamjob.app;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
@@ -66,18 +67,23 @@ public class MainActivity extends AppCompatActivity {
             switch (menuItem.getItemId()) {
                 case R.id.side_home:
                     startActivity(new Intent(MainActivity.this, MainActivity.class));
+                    binding.drawerLayout.closeDrawer(Gravity.LEFT);
                     break;
                 case R.id.side_withdraw:
                     startActivity(new Intent(MainActivity.this, WithdrawActivity.class));
+                    binding.drawerLayout.closeDrawer(Gravity.LEFT);
                     break;
                 case R.id.side_refer:
                     startActivity(new Intent(MainActivity.this, ReferActivity.class));
+                    binding.drawerLayout.closeDrawer(Gravity.LEFT);
                     break;
                 case R.id.side_privacy:
                     startActivity(new Intent(MainActivity.this, Privacy_Policy_Activity.class));
+                    binding.drawerLayout.closeDrawer(Gravity.LEFT);
                     break;
                 case R.id.side_logout:
-                    Toast.makeText(MainActivity.this, "", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Logging Out!", Toast.LENGTH_SHORT).show();
+                    binding.drawerLayout.closeDrawer(Gravity.LEFT);
                     break;
             }
             return false;
