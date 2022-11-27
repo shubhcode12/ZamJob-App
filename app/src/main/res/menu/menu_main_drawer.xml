@@ -16,7 +16,7 @@
 
         <item
             android:id="@+id/side_privacy"
-            android:icon="@drawable/ic_menu"
+            android:icon="@drawable/ic_privacy"
             android:title="Privacy Policy" />
 
         <item
