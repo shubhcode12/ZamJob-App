@@ -129,7 +129,7 @@
                         <ImageView
                             android:layout_width="30dp"
                             android:layout_height="30dp"
-                            android:src="@drawable/ic_crown" />
+                            android:src="@drawable/ic_trophy" />
 
                     </androidx.cardview.widget.CardView>
 
@@ -193,7 +193,7 @@
                         <ImageView
                             android:layout_width="30dp"
                             android:layout_height="30dp"
-                            android:src="@drawable/ic_crown" />
+                            android:src="@drawable/ic_trophy" />
 
                     </androidx.cardview.widget.CardView>
 
@@ -258,7 +258,7 @@
                             android:id="@+id/ivProfile"
                             android:layout_width="30dp"
                             android:layout_height="30dp"
-                            android:src="@drawable/ic_crown" />
+                            android:src="@drawable/ic_trophy" />
 
                     </androidx.cardview.widget.CardView>
 
@@ -322,7 +322,7 @@
                         <ImageView
                             android:layout_width="30dp"
                             android:layout_height="30dp"
-                            android:src="@drawable/ic_crown" />
+                            android:src="@drawable/ic_trophy" />
 
                     </androidx.cardview.widget.CardView>
 
