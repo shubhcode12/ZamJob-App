@@ -176,7 +176,7 @@
                     android:id="@+id/iVibrate"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_setting" />
+                    android:src="@drawable/ic_vibration" />
 
                 <TextView
                     android:layout_width="wrap_content"
