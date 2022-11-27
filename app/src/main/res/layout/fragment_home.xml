@@ -254,9 +254,9 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentEnd="true"
-                            android:layout_marginEnd="10dp"
                             android:layout_centerVertical="true"
-                            android:layout_gravity="center">
+                            android:layout_gravity="center"
+                            android:layout_marginEnd="10dp">
 
                             <LinearLayout
                                 android:id="@+id/layout3"
@@ -347,11 +347,12 @@
                 <EditText
                     android:id="@+id/etName"
                     android:layout_width="match_parent"
-                    android:layout_marginStart="5dp"
-                    android:layout_marginEnd="5dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
                     android:layout_marginTop="10dp"
+                    android:layout_marginEnd="5dp"
                     android:background="@drawable/edittext_round"
+                    android:fontFamily="@font/sf_pro_regular"
                     android:hint="Enter Name"
                     android:padding="15dp" />
 
@@ -449,10 +450,11 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="5dp"
-                    android:layout_marginEnd="5dp"
                     android:layout_marginTop="10dp"
+                    android:layout_marginEnd="5dp"
                     android:background="@drawable/edittext_round"
-                    android:hint="Enter Name"
+                    android:fontFamily="@font/sf_pro_regular"
+                    android:hint="Enter City"
                     android:padding="15dp" />
 
                 <!--                <com.google.android.material.textfield.TextInputLayout-->
@@ -501,39 +503,40 @@
                     android:id="@+id/etPincode"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
                     android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
                     android:layout_marginEnd="5dp"
                     android:background="@drawable/edittext_round"
-                    android:hint="Enter Name"
+                    android:fontFamily="@font/sf_pro_regular"
+                    android:hint="Enter Pin Code"
                     android:padding="15dp" />
 
-<!--                <com.google.android.material.textfield.TextInputLayout-->
-<!--                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
-<!--                    android:layout_width="match_parent"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:layout_marginTop="5dp"-->
-<!--                    android:textColorHint="@color/subtitle_color"-->
-<!--                    android:transitionName="phone_tran"-->
-<!--                    app:boxStrokeColor="@color/white">-->
+                <!--                <com.google.android.material.textfield.TextInputLayout-->
+                <!--                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:layout_marginTop="5dp"-->
+                <!--                    android:textColorHint="@color/subtitle_color"-->
+                <!--                    android:transitionName="phone_tran"-->
+                <!--                    app:boxStrokeColor="@color/white">-->
 
-<!--                    <com.google.android.material.textfield.TextInputEditText-->
-<!--                        android:id="@+id/etPincode"-->
-<!--                        android:layout_width="match_parent"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:autofillHints="name"-->
-<!--                        android:ellipsize="end"-->
-<!--                        android:fontFamily="@font/sf_pro_regular"-->
-<!--                        android:gravity="start"-->
-<!--                        android:hint="Enter above Pin Code"-->
-<!--                        android:imeOptions="actionNext"-->
-<!--                        android:maxLines="1"-->
-<!--                        android:padding="15dp"-->
-<!--                        android:singleLine="true"-->
-<!--                        android:textColor="@color/black"-->
-<!--                        android:textColorHint="#546E7A" />-->
+                <!--                    <com.google.android.material.textfield.TextInputEditText-->
+                <!--                        android:id="@+id/etPincode"-->
+                <!--                        android:layout_width="match_parent"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:autofillHints="name"-->
+                <!--                        android:ellipsize="end"-->
+                <!--                        android:fontFamily="@font/sf_pro_regular"-->
+                <!--                        android:gravity="start"-->
+                <!--                        android:hint="Enter above Pin Code"-->
+                <!--                        android:imeOptions="actionNext"-->
+                <!--                        android:maxLines="1"-->
+                <!--                        android:padding="15dp"-->
+                <!--                        android:singleLine="true"-->
+                <!--                        android:textColor="@color/black"-->
+                <!--                        android:textColorHint="#546E7A" />-->
 
-<!--                </com.google.android.material.textfield.TextInputLayout>-->
+                <!--                </com.google.android.material.textfield.TextInputLayout>-->
 
                 <Button
                     android:layout_width="match_parent"
