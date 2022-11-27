@@ -278,7 +278,7 @@
                     android:id="@+id/ivprivacy"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_setting" />
+                    android:src="@drawable/ic_privacy" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -312,7 +312,7 @@
                     android:id="@+id/ivLogout"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_setting" />
+                    android:src="@drawable/ic_logout" />
 
                 <TextView
                     android:layout_width="wrap_content"
