@@ -185,7 +185,7 @@
                     android:layout_marginStart="10dp"
                     android:layout_toEndOf="@+id/iVibrate"
                     android:fontFamily="@font/sf_pro_regular"
-                    android:text="Notifications"
+                    android:text="Vibrate"
                     android:textColor="@color/colorPrimary"
                     android:textSize="14sp" />
 
