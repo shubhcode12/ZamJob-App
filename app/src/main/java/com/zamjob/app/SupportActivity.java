@@ -15,5 +15,9 @@ public class SupportActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivitySupportBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+
+        binding.toolbar.setNavigationOnClickListener(view -> {
+            onBackPressed();
+        });
     }
 }
