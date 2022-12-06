@@ -19,5 +19,6 @@ public class SettingActivity extends AppCompatActivity {
             onBackPressed();
         });
         binding.settingAboutUS.setOnClickListener(view -> startActivity(new Intent(this, AboutActivity.class)));
+        binding.settingSupport.setOnClickListener(view -> startActivity(new Intent(this, SupportActivity.class)));
     }
 }
