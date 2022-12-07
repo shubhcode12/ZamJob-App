@@ -14,5 +14,8 @@ public class ContactActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivityContactBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+        binding.toolbar.setNavigationOnClickListener(view -> {
+            onBackPressed();
+        });
     }
 }
