@@ -4,11 +4,15 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import com.zamjob.app.databinding.ActivityTicketCommentBinding;
+
 public class TicketCommentActivity extends AppCompatActivity {
+    ActivityTicketCommentBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ticket_comment);
+        binding = ActivityTicketCommentBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
     }
 }
