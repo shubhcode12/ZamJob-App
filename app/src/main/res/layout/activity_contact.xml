@@ -20,7 +20,7 @@
             android:background="?attr/colorPrimary"
             app:navigationIcon="@drawable/ic_arrow_left"
             app:popupTheme="@style/Theme.Zamjob.PopupOverlay"
-            app:title="Refer &amp; Earn" />
+            app:title="Contact" />
 
     </com.google.android.material.appbar.AppBarLayout>
 
