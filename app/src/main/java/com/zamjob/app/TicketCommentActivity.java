@@ -14,5 +14,8 @@ public class TicketCommentActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivityTicketCommentBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+        binding.toolbar.setNavigationOnClickListener(view -> {
+            onBackPressed();
+        });
     }
 }
