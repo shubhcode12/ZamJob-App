@@ -22,6 +22,7 @@ import com.google.android.material.navigation.NavigationView;
 import com.zamjob.app.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
+    //checking github actions workflow
 
     NavController navController;
     private AppBarConfiguration mAppBarConfiguration;
