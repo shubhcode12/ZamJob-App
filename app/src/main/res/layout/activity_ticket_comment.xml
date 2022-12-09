@@ -131,7 +131,6 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="2dp"
                 android:layout_weight="1"
-                android:background=""
                 android:clickable="true"
                 android:fadeScrollbars="false"
                 android:focusable="true"
